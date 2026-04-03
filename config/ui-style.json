@@ -1,0 +1,21 @@
+{
+  "BgColor": "#01070A",
+  "TreeViewBg": "#01070A",
+  "TreeViewText": "#ffffff",
+  "Level0": "#04D9D9",
+  "Level1": "#037373",
+  "Level2": "#05F2DB",
+  "Level3": "#0CB1F2",
+  "Highlight": "#D90B1C",
+  "RadialOpacity": 0.25,
+  "RadialHoverOpacity": 0.45,
+  "CenterGrayOpacity": 0.05,
+  "TopRightMenuOpacity": 0.05,
+  "InitialRadius": 110,
+  "RadiusMin": 40,
+  "RadiusMax": 400,
+  "RadiusScaleStep": 20,
+  "HoverNavigateEnabled": true,
+  "HoverNavigateDelayMs": 440,
+  "HoverNavigateMaxMovePx": 18
+}

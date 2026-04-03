@@ -1,0 +1,98 @@
+{
+  "menus": [
+    {
+      "name": "Main",
+      "slices": [
+        { "label": "Projects",     "icon": "📂", "action": "submenu", "target": "Projects" },
+        { "label": "Studio",       "icon": "🎬", "action": "submenu", "target": "Studio" },
+        { "label": "Quick Access", "icon": "⚡", "action": "submenu", "target": "Quick Access" },
+        { "label": "Hot Scripts",  "icon": "🔥", "action": "submenu", "target": "Hot Scripts" },
+        { "label": "Run",          "icon": "▶️", "action": "submenu", "target": "Run" }
+      ]
+    },
+    {
+      "name": "Projects",
+      "slices": [
+        { "label": "Sa3it-Elnour", "icon": "📁", "action": "submenu",      "target": "Sa3it-Elnour" },
+        { "label": "Open",         "icon": "📂", "action": "open_folder",  "target": "F:\\Studio" },
+        { "label": "Upload",       "icon": "☁️", "action": "open_folder",  "target": "D:\\My Drive\\Clients\\BTL\\Comp" },
+        { "label": "04_Delevery",  "icon": "📦", "action": "open_folder",  "target": "R:\\Studio\\2509_Sa3it-Elnour\\04_Delevery\\2026-3\\3-3-2026" },
+        { "label": "◀ Back",       "icon": "",   "action": "submenu",      "target": "Main" }
+      ]
+    },
+    {
+      "name": "Sa3it-Elnour",
+      "slices": [
+        { "label": "Comp",          "icon": "🎞️", "action": "open_folder", "target": "F:\\Studio\\2509_Sa3it-Elnour\\02_Comp" },
+        { "label": "Comp-Renders",  "icon": "🖥️", "action": "open_folder", "target": "R:\\Studio\\2509_Sa3it-Elnour" },
+        { "label": "Assets",        "icon": "🗃️", "action": "open_folder", "target": "F:\\Studio\\2509_Sa3it-Elnour\\00_Assets" },
+        { "label": "Max_Files",     "icon": "📐", "action": "open_folder", "target": "F:\\Studio\\2509_Sa3it-Elnour\\05_Max_Files" },
+        { "label": "F-3D-Render",   "icon": "🖼️", "action": "open_folder", "target": "F:\\Studio\\2509_Sa3it-Elnour\\01_3D-Render" },
+        { "label": "N-3D-Render",   "icon": "🖼️", "action": "open_folder", "target": "N:\\Studio\\2509_Sa3it-Elnour\\01_3D-Render" },
+        { "label": "Open",          "icon": "📂", "action": "open_folder", "target": "F:\\Studio\\2509_Sa3it-Elnour" },
+        { "label": "screenshots",   "icon": "📸", "action": "open_folder", "target": "F:\\Studio\\2509_Sa3it-Elnour\\02_Comp\\EPs_screenshots" },
+        { "label": "◀ Back",        "icon": "",   "action": "submenu",     "target": "Projects" }
+      ]
+    },
+    {
+      "name": "Studio",
+      "slices": [
+        { "label": "Open",      "icon": "📂", "action": "open_folder", "target": "F:\\Studio" },
+        { "label": "RESOURCES",  "icon": "📚", "action": "open_folder", "target": "F:\\Studio\\RESOURCES" },
+        { "label": "Software",   "icon": "💿", "action": "open_folder", "target": "G:\\Transfere" },
+        { "label": "◀ Back",     "icon": "",   "action": "submenu",     "target": "Main" }
+      ]
+    },
+    {
+      "name": "Quick Access",
+      "slices": [
+        { "label": "Desktop",      "icon": "🖥️", "action": "open_folder",  "target": "%userprofile%\\Desktop" },
+        { "label": "Documents",     "icon": "📄", "action": "open_folder",  "target": "%userprofile%\\Documents" },
+        { "label": "Downloads",     "icon": "⬇️", "action": "open_folder",  "target": "%userprofile%\\Downloads" },
+        { "label": "Pictures",      "icon": "🖼️", "action": "open_folder",  "target": "%userprofile%\\Pictures" },
+        { "label": "Recent Files",  "icon": "🕐", "action": "open_folder",  "target": "%userprofile%\\Recent" },
+        { "label": "This PC",       "icon": "💻", "action": "launch_app",   "target": "explorer.exe" },
+        { "label": "◀ Back",        "icon": "",   "action": "submenu",      "target": "Main" }
+      ]
+    },
+    {
+      "name": "Hot Scripts",
+      "slices": [
+        { "label": "Studio Tools",   "icon": "🛠️", "action": "submenu",     "target": "Studio Tools" },
+        { "label": "hotbox_editor",   "icon": "✏️", "action": "run_script",  "target": "F:\\Studio\\000_ExtraTools\\HSPTools\\HSK_hotbox\\hotbox_editor.ahk" },
+        { "label": "Open Hotbox",     "icon": "📂", "action": "open_folder", "target": "F:\\Studio\\000_ExtraTools\\HSPTools\\HSK_hotbox" },
+        { "label": "◀ Back",          "icon": "",   "action": "submenu",     "target": "Main" }
+      ]
+    },
+    {
+      "name": "Studio Tools",
+      "slices": [
+        { "label": "Sync",     "icon": "🔄", "action": "run_script", "target": "F:\\Studio\\000_ExtraTools\\HSPTools\\HSK_hotbox\\hsk_tools\\Sync_HSK-Tools.cmd" },
+        { "label": "AE",       "icon": "🎬", "action": "submenu",    "target": "AE" },
+        { "label": "Network",  "icon": "🌐", "action": "submenu",    "target": "Main" },
+        { "label": "◀ Back",   "icon": "",   "action": "submenu",    "target": "Hot Scripts" }
+      ]
+    },
+    {
+      "name": "AE",
+      "slices": [
+        { "label": "Environment", "icon": "⚙️", "action": "run_script", "target": "%userprofile%\\Documents\\hsk_tools\\Batsh\\adobe\\DirectoryEnvSetup.bat" },
+        { "label": "Presets",     "icon": "🎨", "action": "run_script", "target": "%userprofile%\\Documents\\hsk_tools\\Batsh\\adobe\\Sync_adobe_Presets.cmd" },
+        { "label": "Profile",     "icon": "👤", "action": "run_script", "target": "%userprofile%\\Documents\\hsk_tools\\Batsh\\adobe\\Sync_AE UI-Scripts.cmd" },
+        { "label": "SysUpdate",   "icon": "🔧", "action": "run_script", "target": "%userprofile%\\Documents\\hsk_tools\\Batsh\\adobe\\Sync_SysSetup.cmd" },
+        { "label": "◀ Back",      "icon": "",   "action": "submenu",    "target": "Studio Tools" }
+      ]
+    },
+    {
+      "name": "Run",
+      "slices": [
+        { "label": "Calculator",    "icon": "🔢", "action": "launch_app",  "target": "calc.exe" },
+        { "label": "cmd",           "icon": "⌨️", "action": "launch_app",  "target": "cmd.exe" },
+        { "label": "Notepad++",     "icon": "📝", "action": "launch_app",  "target": "C:\\Program Files\\Notepad++\\notepad++.exe" },
+        { "label": "This PC",       "icon": "💻", "action": "launch_app",  "target": "explorer.exe" },
+        { "label": "Recent Files",  "icon": "🕐", "action": "open_folder", "target": "%userprofile%\\Recent" },
+        { "label": "◀ Back",        "icon": "",   "action": "submenu",     "target": "Main" }
+      ]
+    }
+  ]
+}

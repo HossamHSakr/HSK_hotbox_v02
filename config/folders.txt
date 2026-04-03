@@ -1,0 +1,44 @@
+﻿# Hotbox Folder Structure
+# Format: Label|Path
+
+Projects
+  Sa3it-Elnour
+    Comp|F:\Studio\2509_Sa3it-Elnour\02_Comp
+    Comp-Renders|R:\Studio\2509_Sa3it-Elnour
+    Assets|F:\Studio\2509_Sa3it-Elnour\00_Assets
+    Max_Files|F:\Studio\2509_Sa3it-Elnour\05_Max_Files
+    F-3D-Render|F:\Studio\2509_Sa3it-Elnour\01_3D-Render
+    N-3D-Render|N:\Studio\2509_Sa3it-Elnour\01_3D-Render
+    Open|F:\Studio\2509_Sa3it-Elnour
+    screenshots|F:\Studio\2509_Sa3it-Elnour\02_Comp\EPs_screenshots
+  Open|F:\Studio
+  Upload|D:\My Drive\Clients\BTL\Comp
+  04_Delevery|R:\Studio\2509_Sa3it-Elnour\04_Delevery\2026-3\3-3-2026
+Studio
+  Open|F:\Studio
+  RESOURCES|F:\Studio\RESOURCES
+  Software|G:\Transfere
+Quick Access
+  Desktop|%userprofile%\Desktop
+  Documents|%userprofile%\Documents
+  Downloads|%userprofile%\Downloads
+  Pictures|%userprofile%\Pictures
+  Recent Files|%userprofile%\Recent 
+  This PC|explorer.exe
+Hot Scripts
+  Studio Tools
+    Sync|"F:\Studio\000_ExtraTools\HSPTools\HSK_hotbox\hsk_tools\Sync_HSK-Tools.cmd"
+    AE
+      Environment|"%userprofile%\Documents\hsk_tools\Batsh\adobe\DirectoryEnvSetup.bat"
+      Presets|"%userprofile%\Documents\hsk_tools\Batsh\adobe\Sync_adobe_Presets.cmd"
+      Profile|"%userprofile%\Documents\hsk_tools\Batsh\adobe\Sync_AE UI-Scripts.cmd"
+      SysUpdate|"%userprofile%\Documents\hsk_tools\Batsh\adobe\Sync_SysSetup.cmd"
+    Network
+  hotbox_editor|"F:\Studio\000_ExtraTools\HSPTools\HSK_hotbox\hotbox_editor.ahk"
+  Open Hotbox|F:\Studio\000_ExtraTools\HSPTools\HSK_hotbox
+Run
+  Calculator|%calc%
+  cmd|%CMD%
+  Notepad++|"C:\Program Files\Notepad++\notepad++.exe"
+  This PC|explorer.exe
+  Recent Files|%userprofile%\Recent
